@@ -2,7 +2,7 @@ window.onscroll = function() {
     console.log(window.pageYOffset);
     var profilePicture = document.getElementById('picture');
     var headerGrid = document.getElementById('headerGrid');
-    if (window.pageYOffset > 50) {
+    if (window.pageYOffset > 400) {
         profilePicture.classList.add("changeProfilePic");
         headerGrid.classList.add("minimizeGridRows")
     } else {
@@ -12,6 +12,14 @@ window.onscroll = function() {
     }
 }
 
+function bodyOnLoad() {
+    var leftImg = document.getElementById('image2');
+    console.log("Change CSS")
+    leftImg.classList.add("changeLeftImg")
+
+}
+
+window.onload = bodyOnLoad;
 
 
 //let profileElem = document.getElementById("profilePicture");

@@ -13,7 +13,7 @@ body {
 .grid-item {
     display: grid;
     height: 6em;
-    color: orange;
+    color: white;
     background-color: black;
     align-content: center;
     justify-content: center;
@@ -46,4 +46,104 @@ body {
 .changeProfilePic {
     height: 5em!Important;
     color: red;
+}
+
+#parent {
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin-bottom: 0;
+    height: 600px;
+}
+
+#topText {
+    position: absolute;
+    text-align: left;
+    top: 200px;
+    left: 40%;
+}
+
+#imageLeft {
+    position: relative;
+    top: 0;
+    height: 600px;
+    width: 100%
+}
+
+#imageRight {
+    animation: 1s ease-out 0s 1 slideToRight;
+    position: absolute;
+    height: 400px;
+    left: 45px;
+    top: 0;
+}
+
+#image2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    left: 0;
+    top: 0;
+    height: 500px;
+}
+
+.changeLeftImg {
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#mountain {
+    left: 60%;
+    color: powderblue;
+}
+
+#image3 {
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+    position: absolute;
+    right: 0;
+    top: 6.2em;
+    width: 50em;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+#homepageText {
+    top: 80px;
+    left: 0;
+    position: absolute;
+    font-size: 26px;
+    color: black;
+    -webkit-transform: rotate(-20deg);
+}
+
+#middleText {
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    left: 10%;
+    font-size: 20em;
+}
+
+#nameText {
+    position: absolute;
+    text-align: left;
+    top: 50px;
+    left: 90%;
+    -webkit-transform: rotate(-20deg);
 }
