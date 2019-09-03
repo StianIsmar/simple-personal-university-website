@@ -147,3 +147,14 @@ body {
     left: 90%;
     -webkit-transform: rotate(-20deg);
 }
+
+#personalText {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+#picture {
+    left: 0;
+    align-self: left;
+}
