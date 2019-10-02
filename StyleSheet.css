@@ -23,7 +23,7 @@ body {
 }
 
 .btn-group .button {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     /* Green */
     border: none;
     color: white;
@@ -53,7 +53,7 @@ body {
     bottom: 0;
     padding: 0;
     margin-bottom: 0;
-    height: 600px;
+    height: 400px;
 }
 
 #topText {
@@ -66,8 +66,8 @@ body {
 #imageLeft {
     position: relative;
     top: 0;
-    height: 600px;
-    width: 100%
+    height: 400px;
+    width: 100%;
 }
 
 #imageRight {
