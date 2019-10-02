@@ -112,6 +112,7 @@ body {
     right: 0;
     top: 6.2em;
     width: 50em;
+    pointer-events: none;
 }
 
 @keyframes slideInFromBottom {
